@@ -1,0 +1,234 @@
+.bod{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#93E1C5;
+
+}
+
+.z{
+    margin-top:5%;
+    
+}
+.z img {
+    border-radius:8px;
+}
+
+.match-card {
+    width:100%;
+    height:43%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top:5%;
+    color: #0D9D97;
+    border: 1.5px solid  #0D9D97;
+    align-content: center;
+
+}
+
+.match-info p {
+    line-height: 2; 
+    margin-left:7%;
+    margin-top:3%;
+}
+.match-info h3 {
+    margin-top: 0;
+    font-size: 90%;
+    margin-bottom: 1%;
+    margin-left:7%;
+    margin-top:3%;
+}
+
+.main-banner {
+    background-size: cover;
+    background-position: center;
+    margin-top:10px;
+    height: 20px;
+    text-align: center;
+}
+
+.banner-text {
+    color:#333;
+    text-shadow: 0.5px 0.5px 0.5px rgba(4, 5, 2, 0.594);
+    margin-top:5%;
+}
+
+.banner-text h2 {font-size:110%;
+
+}
+
+.section {
+    margin-top:15%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size:100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #333;
+    margin-top:10%;
+}
+
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap:2%;
+    margin: 5% ;
+    max-width: 800px;
+}
+
+.calendar-header , 
+.calendar-day {
+    padding:2%;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius:5px;
+}
+
+
+.calendar-header {
+    grid-column: span 7;
+}
+
+
+.calendar-day {
+    text-transform: uppercase;
+}
+
+.calendar-date {
+    padding: 10%;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.match-day {
+    background-color: #ffcc00;
+    color: #333;
+    font-weight: bold;
+}
+
+
+.nit div h1 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:100%;
+    margin-right:9%;
+    margin-left:7%;
+    margin-top:7%;
+}
+
+.nit div p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:80%;
+    margin-left:7%;
+    margin-right:11%;
+ } 
+
+
+ .aa img {
+    width:80%;
+    height:70%;
+    margin-left:8%;
+    border-radius:15px;
+    margin-bottom:2%;
+}
+
+
+.cc img {
+    width:80%;
+    height:70%;
+    margin-left:8%;
+    border-radius:15px;
+    margin-bottom:2%;
+}
+
+
+
+
+@media (max-width: 576px) 
+{
+
+.calendar {
+    gap:5px;
+    margin: 2px auto;
+    width:300px;
+    font-size:10px;
+}
+
+.calendar-header , 
+.calendar-day {
+    padding:8px;
+    border-radius:2px;
+}
+
+.calendar-date {
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
+}
+
+@media ((min-width:900px) and (max-width:1500px) ) 
+{ 
+    .calendar {
+        gap:5px;
+        margin: 5px auto;
+        font-size:15px;
+    }
+    
+    .calendar-header , 
+    .calendar-day {
+        padding:15px;
+        border-radius:15px;
+    }
+    
+    .calendar-date {
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+ }
+
+
+@media ((min-width:1700px) and (max-width:2000px) ) 
+{  
+    .calendar {
+        gap:5px;
+        margin: 10px auto;
+        font-size:40px;
+        margin-left:30%;
+    }
+    
+    .calendar-header , 
+    .calendar-day {
+        padding:15px;
+        border-radius:15px;
+    }
+    
+    .calendar-date {
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    }
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

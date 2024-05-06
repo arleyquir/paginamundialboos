@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/encab.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="css/pie.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body class="bod">
+    <header class="container-fluid">
+        <div class="row msp">
+             <img class="  col-sm-2 logo" src="img/logomundial.jpeg" alt="">
+             
+          <div class="  col-sm-8  let">
+            <h1>FIFA WORLD CUP EEUU 2026</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="html/equipo.html">Equipos</a>
+                <a href="html/partidos.html">Partidos</a>
+                <a href="html/jugadores.html">Jugadores</a>
+                <a href="html/iniciosesion.html">Iniciar sesión</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Más</button>
+                    <div class="dropdown-content">
+                        <a href="#">Acerca de</a>
+                        <a href="#">Contacto</a>
+                        <a href="#">mundiales</a>
+                        <a href="#">recordatorios</a>
+                        <a href="#">configuracion</a>
+                    </div>
+                </div>
+            </nav>
+          </div>
+            <img class="col-sm-2 logo" src="img/logomundial.jpeg" alt="">
+        </div>
+    </header>
+    
+    <script>
+        /* JavaScript para el submenú */
+        document.addEventListener("DOMContentLoaded", function() {
+            var dropdowns = document.getElementsByClassName("dropdown");
+            var i;
+    
+            for (i = 0; i < dropdowns.length; i++) {
+                dropdowns[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var dropdownContent = this.querySelector(".dropdown-content");
+                    if (dropdownContent.style.display === "block") {
+                        dropdownContent.style.display = "none";
+                    } else {
+                        dropdownContent.style.display = "block";
+                    }
+                });
+            }
+        });
+    </script>
+
+
+<div class="container-fluid gran">
+    <div class="row zml">
+        <div class="col-sm-6 lp">
+            <div class="match-card">
+                <div class="match-info">
+                    <h3>CATAR vs ECUADOR </h3>
+                    <p>11 : 00  •  20 NOV 2026</p>
+                </div>
+            </div>
+            <div class="match-card">
+                <div class="match-info">
+                    <h3>
+                        INGLATERRA vs IRÁN</h3>
+                    <p>08 : 00  •  21 NOV 2026</p>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="col-sm-6 carousel slide ">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+            </div>
+            <div class="  carousel-inner  ">
+              <div class=" carousel-item active z">
+                <img src="img/img.carrusel.1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item z">
+                <img src="img/img.carrsusel.2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item z">
+                <img src="img/img.carrusel.3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    
+</div>
+<div class="row">
+    <div class="col-sm-12 main-banner">
+        <div class="banner-text">
+            <h2>VIVE LA PASIÓN DEL FÚTBOL MUNDIAL</h2>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+<div class="col-sm-12 section">
+    <h2>Calendario de Partidos</h2>
+</div>
+</div>
+
+<div class="calendar">
+    <div class="calendar-header">Noviembre 2026</div>
+    <div class="calendar-day">Lun</div>
+    <div class="calendar-day">Mar</div>
+    <div class="calendar-day">Mié</div>
+    <div class="calendar-day">Jue</div>
+    <div class="calendar-day">Vie</div>
+    <div class="calendar-day">Sáb</div>
+    <div class="calendar-day">Dom</div>
+    <div class="calendar-date match-day">1</div>
+    <div class="calendar-date match-day">2</div>
+    <div class="calendar-date">3</div>
+    <div class="calendar-date">4</div>
+    <div class="calendar-date">5</div>
+    <div class="calendar-date">6</div>
+    <div class="calendar-date">7</div>
+    <div class="calendar-date">8</div>
+    <div class="calendar-date">9</div>
+    <div class="calendar-date">10</div>
+    <div class="calendar-date">11</div>
+    <div class="calendar-date">12</div>
+    <div class="calendar-date">13</div>
+    <div class="calendar-date">14</div>
+    <div class="calendar-date">15</div>
+    <div class="calendar-date">16</div>
+    <div class="calendar-date">17</div>
+    <div class="calendar-date match-day">18</div>
+    <div class="calendar-date">19</div>
+    <div class="calendar-date">20</div>
+    <div class="calendar-date">21</div>
+    <div class="calendar-date">22</div>
+    <div class="calendar-date">23</div>
+    <div class="calendar-date">24</div>
+    <div class="calendar-date">25</div>
+    <div class="calendar-date">26</div>
+    <div class="calendar-date">27</div>
+    <div class="calendar-date">28</div>
+    <div class="calendar-date">29</div>
+    <div class="calendar-date">30</div>
+    <div class="calendar-date">31</div>
+</div>
+
+
+<div class="row">
+    <div class="section col-sm-12">
+        <h2>Últimas Noticias</h2>    
+    </div>
+
+    </div>
+
+<div class="row">
+    <div class=" col-sm-6 nit "> 
+        <div class="aa">
+            <h1> 
+            Andijan, Bukhara y Tashkent se preparan para montar un show espectacular
+        </h1>
+    <p>
+        ¿Qué hará que Andijan, Bukhara y Tashkent sean los escenarios perfectos para la Copa Mundial de Futsal de la FIFA? Algunas estrellas ayudan a la FIFA a dar la respuesta.
+    </p>
+    <img src="img/noticia1.webp" alt=""></div>
+
+</div>
+<div class="col-sm-6 nit ">
+    <div class="aa">
+        <h1>
+            Disfruta de Captains of the World gratis en FIFA+
+        </h1>
+        <p>
+            Del vestuario al terreno de juego, accede en exclusiva a las 32 selecciones que lucharon por la gloria futbolística en la Copa Mundial de la FIFA 2022™.
+        </p>
+        <img src="img/noticia3.webp" alt="">
+    </div>
+ </div>
+</div>
+
+<div class="row">
+    <div class=" col-sm-6 nit">
+        <div class="cc">
+            <h1>
+                Disfruta de Captains of the World gratis en FIFA+
+            </h1>
+            <p>
+                Del vestuario al terreno de juego, accede en exclusiva a las 32 selecciones que lucharon por la gloria futbolística en la Copa Mundial de la FIFA 2022™.
+            </p>
+            <img src="img/noticia3.webp" alt="">
+        </div>
+    </div>
+   
+<div class="col-sm-6 nit">
+    <div class=" cc">
+
+        <h1>
+            Jude Bellingham, análisis de un fenómeno: correr con velocidad y determinación
+        </h1>
+        <p>
+            Análisis de un jugador que irrumpió con fuerza en la Copa Mundial de la FIFA 2022™, imponiendo su juego a los rivales con extenuantes carreras con y sin balón.
+        </p>
+        <img src="img/noticia4.webp" alt="">
+        </div>
+    </div>
+</div>
+
+<footer >
+    <p>Contacto: info@mundial2024.com</p>
+    <p>Síguenos en redes sociales:</p>
+    <a href="#" target="_blank">Facebook</a>
+    <a href="#" target="_blank">Twitter</a>
+    <a href="#" target="_blank">Instagram</a>
+    <p>&copy; 2024 Mundial de Fútbol. Todos los derechos reservados.</p>
+</footer>
+    
+</body>
+</html>

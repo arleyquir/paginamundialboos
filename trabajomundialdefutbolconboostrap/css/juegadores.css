@@ -1,0 +1,69 @@
+.bod {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#93E1C5;
+}
+.container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    gap:20px;
+}
+
+.na{
+    width:90%;
+    height:50px;
+    margin-left:5%;
+    background-color:#fff;
+    margin-bottom:30px;
+    text-align: center;
+    color:#0D9D97;
+    border-radius:12px;
+}
+
+
+.player-card {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius:12px;
+    font-size: smaller;
+
+}
+
+.player-image {
+    flex: 0 0 150px;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+}
+
+.player-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player-info {
+    flex: 1;
+    padding: 10px;
+}
+
+.player-info h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.player-info p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.player-info .attribute {
+    font-weight: bold;
+}
+
+
